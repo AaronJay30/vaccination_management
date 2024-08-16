@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 50px;
+    background: #ffffff; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #024059; 
+    border-radius: 50px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #406472; 
+}
+
+
+/* FOR NAVIGATION BAR  */
+.topnav{
+    overflow: hidden;
+    background-color: #024059;
+}
+
+.topnav a img{
+    width: 4em;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.topnav a:hover {
+    color: #99e7fd;
+    text-decoration: none;
+
+}
+
+.topnav-right button{
+    margin-top: 2em;
+    border-radius: 40px;
+    outline: none;
+    width: 10em;
+    height: 3em;
+}
+
+.topnav-right button:hover{
+    background-color: #cbebf6;
+    transition:ease-in;
+}
+
+.topnav-right button a{
+    margin-top: -0.4em;
+    color: #024059;
+    margin-left: 12%;
+    border: #024059;
+}
+
+.topnav-right button a:hover{
+    color: #024059;
+}
+
+.topnav-right{
+    float: right;
+    margin-right: 4em;
+}
+
+.topnav .logo{
+    margin-left: 2em
+}
+
+.topnav .logo-title{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 1.9em;
+}
+
+
+
+/* FOR THE BODY BUTTON */
+
+.container_admin-btn .btn-primary{
+    background-color: #024059;
+}
+
+.container_admin-btn .input-group-append button{
+    background-color: #024059;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #ffffff;
+    margin-right: 24px;
+}
+
+.container_admin-btn .input-group input{
+    margin-left: 20px;
+}
+
+.container_admin-btn .input-group .btn-width{
+    font-size: 0.9em;
+    width: 15%;
+}
+
+.container_admin-btn .input-group .filter-btn{
+    display: inline;
+}
+
+.container_admin-btn input{
+    width: 60%;
+    border-radius: 30px;
+    height: auto;
+}
+
+
+/* FOR THE BODY TABLE */
+
+.container_admin-table{
+    margin: 36px;
+    overflow-x: scroll;
+}
+
+.container_admin-table table .expand {
+    white-space:nowrap
+}
+.container_admin-table .shrink {
+    width: 99%
+}
+
+.container_admin-table table tbody tr td h5{
+    font-size: 14px;
+    display: inline;
+}
+
+.container_admin-table table tbody a{
+    text-decoration: none;
+}
+
+.container_admin-table table .bg-color{
+    background-color: #024059;
+}
+
+.container_admin-table table thead th{
+    font-weight: 600;
+}
+
+
+/* FOR THE BODY PAGINATION */
+
+.container_admin-footer{
+    margin-left: 36px;
+    margin-right: 36px;
+    overflow-x: hidden;
+    width: 96%;
+}
+
+.container_admin-footer a{
+    text-decoration: none;
+    float: right;
+}
+
+.container_admin-footer a .selected-page{
+    background: #ffffff;
+    color: #024059;
+}
+
+.container_admin-footer a button{
+    background: #024059;
+    font-size: 15px;
+    margin: 5px;
+    color: #ffffff;
+}
+
+.container_admin-footer a button:hover{
+    background: #ffffff;
+    color: #024059;
+}
+
+.container_admin-footer a .selected-page{
+    background: #ffffff;
+    color: #024059;
+}
+
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+
+.container-fluid .headings li {
+    display: inline;
+}
+
+.container-fluid .headings li button {
+    margin-top: -14%;
+}
+
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside{
+    background: #cbebf6;
+}
+
+.rightside{
+    background: #024059;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
